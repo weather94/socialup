@@ -1,0 +1,146 @@
+/*------------------------------
+    Navbar Area
+------------------------------*/
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-area {
+    @include transition(.5s ease-in);
+    padding: 0;
+    &.navbar-light-color{
+        background-color: $white;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+        &.nav-fixed{
+            background-color: $white;
+        }
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    &:hover,&.active{
+                        .nav-link{
+                            color: $base-color;
+                        }
+                    }
+                    .nav-link{
+                        color: #333333;
+                    }
+                }
+            }
+        }
+    }
+    &.nav-fixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+        height: 100px;
+        border-bottom: 1px solid rgba(0, 0, 0, .05);
+        @include transition(.5s ease-in);
+        background-color: $white;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+        @include transition(.5s ease-in);
+        .navbar-nav {
+            .nav-item {
+                display: inline-block;
+                font-size: 16px;
+                line-height: 58px;
+                text-transform: capitalize;
+                padding: 12px 10px;
+                position: relative;
+                &.navbar-btn-wrapper{
+                    padding-top: 22px;
+                }
+                &:first-child {
+                    padding-left: 0;
+                }
+                &:hover {
+                    .dropdown-menu {
+                        padding: 0;
+                        border-radius: 0;
+                        margin: 0;
+                        @include transition(.5s ease-in);
+                        .dropdown-item {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #8e96a0;
+                            padding: 0px 20px;
+                            line-height: 50px;
+                            @include transition($transition);
+                            border-bottom: 1px solid #e2e2e2;
+                            &:hover {
+                                background-color: $base-color;
+                                color: $white;
+                                border-bottom-color:$base-color; 
+                            }
+                        }
+                    }
+                }
+                .dropdown-menu {
+                    @include transition($transition);
+                    &.show {
+                        padding: 0;
+                        border-radius: 0;
+                        .dropdown-item {
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #8e96a0;
+                            padding: 0px 20px;
+                            line-height: 50px;
+                            @include transition($transition);
+                            border-bottom: 1px solid #e2e2e2;
+                            &:hover {
+                                background-color: $base-color;
+                                color: $white;
+                                border-bottom-color:$base-color; 
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .nav-link {
+                        color: $base-color;
+                        &:before{
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+                &.active {
+                    .nav-link {
+                        color: $base-color;
+                    }
+                }
+                &:last-child {
+                    padding-right: 0;
+                }
+                .nav-link {
+                    color: #777777;
+                    @include transition($transition);
+                    position: relative;
+                    &.boxed-btn{
+                        width: 160px;
+                        height: 50px;
+                        border-radius: 25px;
+                        background-color: $base-color;
+                        color: $heading-color;
+                        font-weight: 600;
+                        &:hover{
+                            background-color: $secondary-color;
+                            color: $white;
+                            border-color: $secondary-color;
+                        }
+                    }
+                    &.pl-0 {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+}

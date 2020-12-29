@@ -1,0 +1,44 @@
+/*--------------------
+    Blog Page
+--------------------*/
+.blog-page-content-area{
+    padding: 100px 0 100px 0;
+    .single-latest-news-grid-item{
+        margin-bottom: 25px;
+    }
+}
+.post-pagination-wrapper{
+    margin-top: 13px;
+    text-align: center;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            &:first-child{
+                margin-left: 0;
+            }
+            .current{
+                background-color: $base-color;
+                color: $white;
+                border-color: $base-color;
+            }
+            span,a{
+                display: block;
+                text-align: center;
+                font-weight: 500;
+                padding: 5px 20px;
+                border-radius: 3px;
+                border: 1px solid #e2e2e2;
+                @include transition($transition);
+                color: $descr-color;
+                &:hover{
+                    background-color: $base-color;
+                    color: $white;
+                    border-color: $base-color;
+                }
+            }
+        }
+    }
+}

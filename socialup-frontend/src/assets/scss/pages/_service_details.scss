@@ -1,0 +1,79 @@
+/*------------------------
+    Service Details Page
+------------------------*/
+.service-details-content-area{
+    padding: 100px 0 92px 0;
+}
+.service-widget-area{
+    .widget{
+        &.service-nav{
+            border: 1px solid #e2e2e2;
+            .widget-title{
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: 600;
+                padding: 22px 30px 17px 30px;
+                background-color: $base-color;
+                color: $white;
+                margin-bottom: 0;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    display: block;
+                    border-top: 1px solid #e2e2e2;
+                    &.active{
+                        a{
+                            background-color: $base-color;
+                            color: $white;
+                        }
+                    }
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    a{
+                        padding: 15px 30px 15px 30px;
+                        font-size: 16px;
+                        line-height: 26px;
+                        display: block;
+                        color: $descr-color;
+                        @include transition($transition);
+                        &:hover{
+                            color: $white;
+                            background-color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.service-page-content-inner{
+    .title{
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .thumb{
+        margin-bottom: 25px;
+    }
+    h4{
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+        color: $descr-color;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+/*---------------------------
+    Work Details 
+--------------------------*/
+.work-details-content-area{
+    padding: 100px 0 95px 0;
+    .work-details-inner-area{
+        .thumb{
+            border: 8px solid $white;
+            box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.6);
+            margin-bottom: 22px;
+        }
+        .title{
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+        p{
+            color: $descr-color;
+            font-size: 16px;
+            line-height: 26px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .project-details{
+        background-color: #f7f7fd;
+        padding: 25px 30px 30px 30px;
+        .title{
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 34px;
+            margin-top: 0;
+            margin-bottom: 22px;
+        }
+        .details-list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                display: block;
+                margin: 8px 0;
+                text-align: right;
+                width: 250px;
+                strong{
+                    font-weight: 600;
+                    color: $heading-color;
+                    float: left;
+                    text-align: left;
+                }
+            }
+        }
+        .share-area{
+            margin-top: 40px;
+            .share-icon{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    display: inline-block;
+                    margin: 0 8px;
+                    a{
+                        display: block;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #e1e1ff;
+                        line-height: 40px;
+                        text-align: center;
+                        color: $descr-color;
+                        @include transition($transition);
+                        &:hover{
+                            background-color: $base-color;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

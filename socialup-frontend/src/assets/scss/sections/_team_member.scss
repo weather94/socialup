@@ -1,0 +1,95 @@
+/*------------------------------
+    Team Member
+------------------------------*/
+.team-member-area{
+    padding: 90px 0 100px 0;
+    &.team-page{
+        padding-bottom: 70px;
+        .single-team-member{
+            margin-bottom: 50px;
+        }
+    }
+}
+.single-team-member{
+    position: relative;
+    text-align: center;
+    background-color: $white;
+    margin: 55px 0 20px 0;
+    @include transition($transition);
+    &:hover{
+        border-color: $base-color;
+        .thumb{
+            overflow: hidden;
+            img{
+                @include transform(scale(0.9));
+            }
+        }
+       .content{
+            .social-icon{
+                border-color: $base-color;
+            }
+       }
+    }
+    .thumb{
+        position: absolute;
+        left: 50%;
+        top: -55px;
+        width: 110px;
+        height: 110px;
+        border: 5px solid $base-color;
+        border-radius: 50%;
+        @include transform(translateX(-50%));
+        img{
+            border-radius: 50%;
+            @include transform(scale(1));
+            @include transition($transition);
+        }
+    }
+    border: 1px solid #e2e2e2;
+    .content{
+        padding: 80px 15px 30px 15px;
+        .name{
+            font-size: 18px;
+            line-height: 28px;
+            color: $heading-color;
+            margin-bottom: 0;
+            font-weight: 600;
+        }
+        .post{
+            font-size: 16px;
+            line-height: 26px;
+            display: block;
+            margin-bottom: 17px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+        }
+        .social-icon{
+            position: absolute;
+            left: 10%;
+            bottom: -20px;
+            background-color: $white;
+            width: 80%;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #e2e2e2;
+            display: inline-block;
+            padding: 10px 20px 10px 20px;
+            @include transition($transition);
+            li{
+                display: inline-block;
+                font-size: 16px;
+                margin: 0 8px;
+                a{
+                    color: $descr-color;
+                    @include transition($transition);
+                    &:hover{
+                        color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+}

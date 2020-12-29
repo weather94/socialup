@@ -1,0 +1,173 @@
+/*----------------------
+    Service area
+----------------------*/
+.service-area{
+    padding: 90px 0 70px 0;
+    &.service-page{
+        padding-top: 100px; 
+    }
+}
+.single-service-item{
+    border: 1px solid #e2e2e2;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    @include transition($transition);
+    &:hover{
+        .icon{
+            background-color: $base-color;
+            border-color: $base-color;
+            color: $white;
+        }
+        border-color: $base-color;
+    }
+    .icon{
+        display: inline-block;
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        @include transform(translateY(-50%));
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: $white;
+        border: 1px solid #e2e2e2;
+        font-size: 35px;
+        text-align: center;
+        color: #a0a0a0;
+        line-height: 70px;
+        margin-top: -15px;
+        @include transition($transition);
+    }
+    .content{
+        padding: 25px 30px 27px 65px;
+        .title{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.single-service-item-two{
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+    @include transition($transition);
+    padding: 30px 40px 23px 40px;
+    &:hover{
+        background-color: $base-color;
+        .icon{
+            color: $white;
+            @include transform(rotateY(360deg));
+        }
+        .content{
+            .title{
+                color: $white;
+            }
+            p{
+                color: rgba($white,.8)
+            }
+            .readmore{
+                color: rgba($white,.8)
+            }
+        }
+    }
+    .icon{
+        font-size: 50px;
+        line-height: 50px;
+        color: #a0a0a0;
+        @include transition($transition);
+        color: $base-color;
+        margin-bottom: 23px;
+        display: inline-block;
+    }
+    .content{
+        .title{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .readmore{
+            color: $descr-color;
+            font-size: 16px;
+            line-height: 26px;
+            @include transition($transition);
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+}
+.single-service-item-three{
+    border: 1px solid #e2e2e2;
+    margin-bottom: 30px;
+    @include transition($transition);
+    .thumb{
+        position: relative;
+        .icon{
+            position: absolute;
+            left: 50%;
+            bottom: -30px;
+            font-size: 30px;
+            line-height: 60px;
+            width: 60px;
+            height: 60px;
+            background-color: $white;
+            color: $base-color;
+            @include transition($transition);
+            text-align: center;
+            border-radius: 50%;
+            @include translateX(-50%);
+            box-shadow: 0 0 15px rgba(#000,0.2);
+        }
+    }
+    .content{
+        padding: 56px 30px 22px 30px;
+        text-align: center;
+        .title{
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            font-weight: 500;
+            a{
+                color: $heading-color;
+                @include transition($transition);
+                &:hover{
+                    color: $base-color;
+                }
+            }
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        .readmore{
+            color: $descr-color;
+            font-size: 16px;
+            line-height: 26px;
+            @include transition($transition);
+            &:hover{
+                color: $base-color;
+            }
+        }
+    }
+}

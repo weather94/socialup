@@ -1,0 +1,153 @@
+/*------------------------
+    Footer Area
+------------------------*/
+.footer-area{
+    &.footer-bg{
+        background-image: url(../img/bg/footer-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+.footer-top{
+    padding: 100px 0 90px 0;
+}
+.footer-widget{
+    .widget-title{
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $white;
+        margin-bottom: 20px;
+    }
+    &.instagram_feed{
+        .instagram_feed-list{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                display: inline-block;
+                margin: 8px;
+                max-width: 100px;
+                &:nth-child(3n+1){
+                    margin-left: 0;
+                }
+                border: 5px solid $white;
+                box-sizing: border-box,content-box;
+            }
+        }
+    }
+    &.about_widget{
+        .footer-logo{
+            display: block;
+            margin-bottom: 25px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba($white,.8);
+        }
+        .social-icons{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            margin-top:22px;
+            li{
+                display: inline-block;
+                margin: 0 5px;
+                &:first-child{
+                    margin-left: 0;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                a{
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    line-height: 30px;
+                    border: 2px solid $base-color;
+                    color: $base-color;
+                    @include transition($transition);
+                    &:hover{
+                        background-color: $base-color;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    &.widget_nav_menu{
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                display: block;
+                font-size: 16px;
+                line-height: 26px;
+                margin: 8px 0;
+                &:first-child{
+                    margin-top: 0;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                a{
+                    color: rgba($white,.8);
+                    @include transition($transition);
+                    &:hover{
+                        color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.footer-bottom{
+    background-color: #f199bc;
+    padding: 15px 0;
+    .footer-bottom-inner{
+        .copyright-area{
+            display: inline-block;
+            .copyright-text{
+                font-size: 16px;
+                line-height: 26px;
+                color: $heading-color;
+            }
+        }
+        
+        .footer-menu{
+            display: inline-block;
+            float: right;
+            .widget_nav_menu{
+                ul{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    li{
+                        display: inline-block;
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin: 0px 8px;
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        a{
+                            color: $heading-color;
+                            @include transition($transition);
+                            &:hover{
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

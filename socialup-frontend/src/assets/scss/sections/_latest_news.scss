@@ -1,0 +1,65 @@
+/*--------------------------
+    Latest News Area
+--------------------------*/
+.latest-news-area{
+    padding: 90px 0 93px 0;
+}
+.single-latest-news-grid-item{
+    .thumb{
+       border: 8px solid $white;
+       box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.6);
+       margin-bottom: 25px;
+    }
+    .content{
+        .post-meta{
+            margin: 0;
+            padding: 0;
+            margin-bottom: 15px;
+            li{
+                display: inline-block;
+                margin: 0 10px;
+                font-size: 14px;
+                &:first-child{
+                    margin-left: 0;
+                }
+                color: $descr-color;
+                a{
+                    color: $descr-color;
+                    @include transition($transition);
+                    &:hover{
+                        color: $base-color;
+                    }
+                }
+            }
+        }
+        .title{
+            font-size: 20px;
+            line-height: 30px;
+            color: $heading-color;
+            @include transition($transition);
+            font-weight: 600;
+            &:hover{
+                color: $base-color;
+            }
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+        }
+        .readmore{
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $descr-color;
+            @include transition($transition);
+            &:hover{
+                color: $base-color;
+            }
+
+            i{
+                font-size: 12px;
+            }
+        }
+    }
+}

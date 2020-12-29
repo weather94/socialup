@@ -1,0 +1,96 @@
+/*------------------------
+    Testimonial Carousel
+------------------------*/
+.testimonial-area{
+    padding: 90px 0 90px 0;
+    .section-title{
+        margin-bottom: 15px;
+    }
+    .right-content-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        overflow: hidden;
+        .single-testimonial-quote{
+            &.active{
+                visibility: visible;
+                opacity: 1;
+                height: auto;
+                overflow: hidden;
+                @include translateY(0%);
+            }
+            visibility: hidden;
+            opacity: 0;
+            height: 0;
+            @include transition($transition);
+            @include translateY(100%);
+            overflow: hidden;
+            p{
+                font-size: 16px;
+                line-height: 26px;
+                color: #777777;
+                margin-bottom: 20px;
+            }
+            .title{
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+            .post{
+                font-size: 14px;
+                font-weight: 400;
+                font-style: italic;
+                font-weight: 500;
+            }
+        }
+    }
+}
+.testimonial-carousel{
+    .owl-dots{
+        position: absolute;
+        right: -70px;
+        top: 50%;
+        @include transform(translateY(-50%));
+        div{
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: transparent;
+            border: 2px solid $heading-color;
+            border-radius: 50%;
+            margin: 5px 0;
+            &.active{
+                background-color: $base-color;
+                border-color: $base-color;
+            }
+        }
+    }
+    .owl-item{
+        margin: 40px 0;
+        z-index: 0;
+        @include transition($transition);
+        &.center.active{
+            @include transform(scale(1.3));
+            z-index: 2;
+            .single-tesitmoial-item{
+                .thumb{
+                    img{
+                        
+                        z-index: 9;
+                    }
+                }
+            }
+        }
+    }
+    .single-tesitmoial-item{
+        @include transition($transition);
+        .thumb{
+            img{
+                box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.8);
+                border: 5px solid $white;
+            }
+        }
+    }
+}

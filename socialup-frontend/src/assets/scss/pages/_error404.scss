@@ -1,0 +1,54 @@
+/*-------------------------
+    404 Page
+-------------------------*/
+.error-404-area{
+    padding: 100px 0 100px 0;
+}
+.error-content-inner{
+    .img-wrapper{
+        margin-bottom: 40px;
+    }
+    .content{
+        text-align: center;
+        .title{
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        p{
+            max-width: 500px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+        }
+        .boxed-btn{
+            font-size: 16px;
+            font-weight: 600;
+            color: $heading-color;
+            border-radius: 3px;
+            &:hover{
+                color: $white;
+            }
+        }
+        .search-form{
+            position: relative;
+            max-width: 500px;
+            margin: 0 auto;
+            margin-top: 37px;
+            margin-bottom: 30px;
+            .form-group{
+                .form-control{
+                    height: 50px;
+                }
+            }
+            .submit-btn{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 65px;
+            }
+        }
+    }
+}

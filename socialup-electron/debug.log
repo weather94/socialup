@@ -1,0 +1,123 @@
+[0304/101231.234:ERROR:file_io_win.cc(170)] CreateFile C:\Users\chlrl\AppData\Local\Temp\scoped_dir30548_18196\Crashpad\reports\06355b58-5cd6-4b6e-ab86-6e0a369a4cbb.dmp: 지정된 경로를 찾을 수 없습니다. (0x3)
+[0304/101231.243:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0407/182346.474:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/182346.475:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/182346.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/183154.225:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/183154.226:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/183154.234:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/183730.594:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/183730.595:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/183730.595:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/183921.913:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/183921.915:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/183921.915:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/184414.171:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/184414.172:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/184414.172:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/185116.599:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/185116.601:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/185116.601:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/185343.240:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/185343.242:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/185343.242:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/185723.127:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/185723.129:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/185723.129:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/190252.869:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/190252.871:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/190252.871:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/190455.508:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/190455.509:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/190455.510:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/191314.300:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/191314.301:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/191314.301:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/191724.186:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/191724.188:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/191724.188:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/191856.901:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/191856.902:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/191856.902:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/192059.404:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/192059.405:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/192059.405:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/192353.186:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/192353.187:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/192353.187:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/193009.953:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/193009.955:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/193009.955:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/193255.779:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/193255.780:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/193255.780:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0407/194548.102:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0407/194548.103:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0407/194548.104:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/004841.973:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/004841.975:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/004841.975:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/010336.629:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/010336.631:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/010336.631:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0408/010336.631:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/010517.927:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/010517.928:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/010517.929:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/010854.576:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/010854.577:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/010854.577:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/012231.293:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/012231.294:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/012231.294:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/012442.259:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/012442.260:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/012442.260:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/013541.739:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/013541.741:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/013541.741:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/200636.138:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/200636.142:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/200636.142:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/203722.910:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/203722.911:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/203722.911:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/204014.445:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/204014.447:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/204014.447:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/221739.261:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/221739.263:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/221739.263:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/222632.501:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/222632.503:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/222632.503:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/223330.739:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/223330.740:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/223330.740:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/223548.361:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/223548.363:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/223548.363:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/224031.529:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/224031.531:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/224031.531:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/224937.196:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/224937.199:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/224937.199:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/232539.755:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/232539.757:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/232539.757:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/232759.050:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/232759.052:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/232759.052:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/234623.700:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/234623.702:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/234623.702:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/234813.800:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/234813.803:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/234813.803:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0408/235348.678:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0408/235348.680:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0408/235348.680:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)
+[0409/012241.482:ERROR:process_info.cc(329)] VirtualQueryEx: 액세스가 거부되었습니다. (0x5)
+[0409/012241.484:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0409/012241.484:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 기존 프로세스에 액세스하려고 했습니다. (0xc000010a)

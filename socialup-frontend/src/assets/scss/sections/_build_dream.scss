@@ -1,0 +1,75 @@
+/*---------------------------
+    Build Dream
+---------------------------*/
+.build-your-dream-area{
+    padding: 100px 0 100px 0;
+    position: relative;
+    &.style-two{
+        min-height: 600px;
+        .left-content-area{
+            padding-top: 66px;
+        }
+    }
+    &.style-three{
+        padding: 90px 0 100px 0 ;
+    }
+    .right-absolute-area{
+        position: absolute;
+        right: 0;
+        top: 0;
+        .video-play-area-two{
+            .img-wrapper{
+                position: relative;
+                .hover{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    @include transform(translate(-50%,-50%));
+                    .video-play-btn{
+                        color: $base-color;
+                    }
+                }
+            }
+        }
+    }
+    .right-content-area{} 
+    .left-content-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        .title{
+            font-size: 32px;
+            line-height: 42px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: #777777;
+        }
+        .btn-wrapper{
+            margin-top: 26px;
+        }
+    }
+}
+.tile-img-wrapper{
+    display: block;
+    .first_img{
+        float: right;
+        margin-bottom: 58px;
+        img{
+            border: 10px solid $white;
+            box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.004);
+        }
+    }
+    .last_img{
+        position: absolute;
+        top: 140px;
+        img{
+            border: 10px solid $white;
+            box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.004);
+        }
+    }
+}

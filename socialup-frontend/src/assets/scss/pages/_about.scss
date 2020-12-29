@@ -1,0 +1,51 @@
+/*------------------------
+    About Page
+-------------------------*/
+.about-page-conent{
+    padding: 100px 0 100px 0;
+    .right-content-area{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding-left: 80px;
+        .title{
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+        }
+        .btn-wrapper{
+            margin-top: 25px;
+            .boxed-btn{
+                width: 165px;
+                height: 50px;
+                font-weight: 600;
+                color: $heading-color;
+                &:hover{
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+.tile-image-two{
+    position: relative;
+    margin-bottom: 60px;
+    img{
+        border: 8px solid $white;
+        box-shadow: 0px 0px 8px 0px rgba(203, 203, 203, 0.5);
+    }
+    .img-one{}
+    .img-two{
+        position: absolute;
+        right: 0;
+        top: 60px;
+    }
+}

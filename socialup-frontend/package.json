@@ -1,0 +1,46 @@
+{
+  "name": "socialup-web",
+  "description": "Socialup Web Project",
+  "version": "1.0.0",
+  "author": "weather",
+  "license": "null",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --disableHostCheck true --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.8.0",
+    "es6-promise": "^4.2.6",
+    "material-design-icons": "^3.0.1",
+    "vue": "^2.5.11",
+    "vue-chartjs": "^3.4.2",
+    "vue-material": "^1.0.0-beta-10.2",
+    "vue-router": "^3.0.2",
+    "vue2-editor": "2.4.3",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

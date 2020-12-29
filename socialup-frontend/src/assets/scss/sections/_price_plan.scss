@@ -1,0 +1,104 @@
+/*----------------------
+    Price Plan Area
+----------------------*/
+
+.pricing-plan-area{
+    padding: 90px 0 130px 0;
+}
+.single-price-plan-01{
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    background-color: $white;
+    &:hover{
+        .price-header{
+            .icon{
+                &:after{
+                    @include transform(scale(1.3));
+                }
+            }
+        }
+    }
+    .price-header{
+        border-bottom:  1px solid #e2e2e2;
+        padding: 40px 0 25px 0;
+        .icon{
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: #ffbbd6;
+            border-radius: 50%;
+            color: #333333;
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
+            position: relative;
+            z-index: 0;
+            @include transition($transition);
+            margin: 0 auto;
+            margin-bottom: 25px;
+            &:after{
+                position: absolute;
+                left: 12px;
+                top: 13px;
+                width: 76px;
+                height: 76px;
+                background-color: #f199bc;
+                content: '';
+                z-index: -1;
+                border-radius: 50%;
+                @include transition($transition);
+                @include transform(scale(1));
+            }
+        }
+        .name{
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .price{
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 700;
+            margin-top: 10px;
+            color: $base-color;
+            display: block;
+            .sign{
+                font-size: 20px;
+            }
+        }
+    }
+    .price-body{
+        ul{
+            margin: 0;
+            padding: 22px 0 0px 0;
+            list-style: none;
+            li{
+                display: block;
+                color: #777777;
+                margin: 15px 0;
+            }
+        }
+    }
+    .price-footer{
+        position: relative;
+        padding-bottom: 53px;
+        .btn-boxed {
+            position: absolute;
+            left: 50%;
+            bottom: -30px;
+            background-color: transparent;
+            border:  1px solid #e2e2e2;
+            background-color: $white;
+            @include transform(translateX(-50%));
+            @include transition($transition);
+            font-weight: 500;
+            &:hover{
+                background-color: $base-color;
+                color: $white;
+                border-color: $base-color;
+            }
+        }
+    }
+}

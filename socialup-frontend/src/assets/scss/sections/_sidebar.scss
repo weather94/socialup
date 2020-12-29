@@ -1,0 +1,109 @@
+/*--------------------------
+    Sidebar Area
+---------------------------*/
+.widget-area{
+    .widget{
+        border: 1px solid #e2e2e2;
+        padding: 22px 30px 30px 30px;
+        margin-bottom: 30px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .widget-title{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 600;
+            margin-bottom: 22px;
+        }
+        &.widget_recent_post{
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    display: block;
+                    margin-bottom: 30px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    .single-recent-post{
+                        display: flex;
+                        align-self: flex-start;
+                        .thumb{
+                            width: 100px;
+                            height: 100px;
+                            margin-right: 20px;
+                        }
+                        .content{
+                            flex: 1;
+                            .title{
+                                font-size: 18px;
+                                line-height: 28px;
+                                font-weight: 600;
+                                a{
+                                    color: $heading-color;
+                                    @include transition($transition);
+                                    &:hover{
+                                        color: $base-color;
+                                    }
+                                }
+                            }
+                            .time{
+                                font-size: 16px;
+                                line-height: 26px;
+                                color: $descr-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.widget_search{
+            padding:0;
+            .search-form{
+                position: relative;
+                .search-field{
+                    width: 100%;
+                    border:none;
+                    height: 50px;
+                    padding: 10px 30px;
+                }
+                .submit-btn{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 60px;
+                    height: 50px;
+                }
+            }
+        }
+        &.widget_categories{
+            padding-bottom: 22px;
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    display: block;
+                    margin: 10px 0;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                    a{
+                        color: $descr-color;
+                        font-size: 16px;
+                        line-height: 26px;
+                        @include transition($transition);
+                        &:hover{
+                            color: $base-color;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

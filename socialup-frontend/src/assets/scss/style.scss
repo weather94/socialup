@@ -1,0 +1,95 @@
+/*
+    Css Table of Content
+    --------------------------
+    ** Typography
+    --------------------------
+    ** Global 
+    --------------------------
+    ** Breadcumb 
+    --------------------------
+    ** Preloader Css
+    --------------------------
+    ** Normalize
+    --------------------------
+    ** Navbar
+    --------------------------
+    ** Header
+    --------------------------
+    ** Support Bar
+    --------------------------
+    ** Build Dream
+    --------------------------
+    ** Service Area
+    --------------------------
+    ** Counterup Area
+    --------------------------
+    ** Recent Work Area
+    --------------------------
+    ** Testimonial  Area
+    --------------------------
+    ** Latest News  Area
+    --------------------------
+    ** Brands Carousel Area
+    --------------------------
+    ** Pricing Plan Area
+    --------------------------
+    ** Team Member Area
+    --------------------------
+    ** Call To Action Area
+    --------------------------
+    ** Footer Area
+    --------------------------
+
+    --------------------------
+    ** About Page
+    --------------------------
+    ** Work Details Page
+    --------------------------
+    ** Team Member Page
+    --------------------------
+    ** Blog Page
+    --------------------------
+    ** Blog Details Page
+    --------------------------
+    ** Contact Page
+    --------------------------
+    ** 404 Page
+    --------------------------
+    ** Faq Page
+    --------------------------
+    ** Service Details Page
+    --------------------------
+
+*/
+
+//=Main scss
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+//=Section scss
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_support";
+@import "sections/_build_dream";
+@import "sections/_service_area";
+@import "sections/_counterup";
+@import "sections/_recent_work";
+@import "sections/_testimonial";
+@import "sections/_latest_news";
+@import "sections/_brands";
+@import "sections/_price_plan";
+@import "sections/_team_member";
+@import "sections/_call_to_action";
+@import "sections/_sidebar";
+@import "sections/_footer";
+//=pages scss
+@import "pages/_about";
+@import "pages/_work_details";
+@import "pages/_team";
+@import "pages/_blog";
+@import "pages/_blog_details";
+@import "pages/_contact";
+@import "pages/_error404";
+@import "pages/_faq";
+@import "pages/_service_details";

@@ -1,0 +1,73 @@
+/*-----------------------
+    Contact Us Page
+------------------------*/
+.map-area{
+    #map{
+        min-height: 500px;
+    }
+}
+.contact-page-conent-aera{
+    padding: 90px 0 100px 0;
+    .title{
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}
+.contact-form-inner{
+   
+}
+
+.contact-form{
+    .form-group{
+        &.textarea{
+            .form-control{
+                min-height: 160px;
+                resize: none;
+            }
+        }
+        .form-control{
+            height: 50px;
+            padding: 20px 30px;
+            &.error{
+                border-color: #dc3545;
+                @include placeholder-color(#dc3545);
+            }
+        }
+    }
+    .submit-btn{
+        font-weight: 600;
+        color: $heading-color;
+        border-radius: 3px;
+        &:hover{
+            color: $white;
+        }
+    }
+}
+.contact-info-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        display: block;
+        margin-bottom: 30px;
+        .single-contact-info{
+            display: flex;
+            align-self: flex-start;
+            .icon{
+                font-size: 30px;
+                line-height: 30px;
+                margin-right: 20px;
+                color: $base-color;
+            }
+            .content{
+                flex: 1;
+                .details{
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+/*--------------------------
+    Counter up area
+--------------------------*/
+.counterup-area {
+    padding: 100px 0 97px 0;
+    &.counterup-bg{
+        background-image: url(../img/bg/counterup-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    &.counterup-bg-2{
+        background-image: url(../img/bg/counterup-bg-2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 0;
+        &:after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(#000000,.4);
+            content: '';
+            z-index: -1;
+        }
+    }
+    &.counterup-bg-3{
+        background-image: url(../img/bg/counterup-bg-2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 0;
+        &:after{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($base-color,.9);
+            content: '';
+            z-index: -1;
+        }
+    }
+}
+.single-counterup-item{
+    text-align: center;
+    &.black-theme{
+        .icon{
+            color: $heading-color;
+        }
+        .content{
+            .count-num{
+                color: $heading-color;
+            }
+            .name,
+            .count-wrap{
+                color: $heading-color;
+            }
+        }
+    }
+    &.white-theme{
+        .icon{
+            color: $white;
+        }
+        .content{
+            .count-num{
+                color: rgba($white,.9);
+            }
+            .name,
+            .count-wrap{
+                color: rgba($white,.9);
+            }
+        }
+    }
+    .icon{
+        font-size: 40px;
+        line-height: 40px;
+        color: $base-color;
+        margin-bottom: 23px;
+    }
+    .content{
+        .count-num{
+            font-size: 30px;
+            line-height: 40px;
+            font-family: $heading-font;
+            font-weight: 600;
+            color: $heading-color;
+        }
+        .name{
+            font-size: 16px;
+            line-height: 26px;
+            color: $descr-color;
+            font-weight: 500;
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+        .count-wrap{
+            font-size: 30px;
+            line-height: 40px;
+            font-family: $heading-font;
+            font-weight: 600;
+            color: $heading-color;
+        }
+    }
+}
