@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "lodash": "^4.17.11",
     "material-design-icons": "^3.0.1",
     "selenium-webdriver": "^4.0.0-alpha.1",
